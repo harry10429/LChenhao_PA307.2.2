@@ -1,0 +1,75 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    border-right: 1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+  div.ContactDetail {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+
+  }
+
+  input[type="submit"] {
+    background-color: rgb(87, 77, 224);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 100%;
+  }
+ 
+  fieldset{
+    background-color: white;
+    width:40%;
+    margin-top:100px;
+    margin-left:500px;
+    border-color: silver;
+    border-width:thin;
+
+  }
+  form {
+    text-align-last:center;
+    
+  } 
+
+  input[type=text],input[type=password],input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  
+  }
+
+  
+
